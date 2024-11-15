@@ -1,3 +1,4 @@
+//Using switch statement, make a simle calculator of +, -, *, /.
 #include <iostream>
 using namespace std;
 int main() {

@@ -1,3 +1,4 @@
+// Using Switch statement, write an integer (1-7) and print Day of the week.
 #include <iostream>
 using namespace std;
 int main() {

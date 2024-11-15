@@ -1,3 +1,4 @@
+// Using switch statement, print single-digit integers (0 to 9) into words.
 #include <iostream>
 using namespace std;
 int main() {

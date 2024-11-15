@@ -1,3 +1,4 @@
+// Using switch statement, make a simple bank transaction system.
 #include <iostream>
 using namespace std;
 int main() {
@@ -18,19 +19,21 @@ int main() {
     cin >> CheckBalance;
 
     int balance_a_deposit;
+    balance_a_deposit = CheckBalance + deposit;
     switch (menu) 
     {
         case 1:
-        balance_a_deposit = CheckBalance + deposit;
-        cout << "The deposit value is: " << balance_a_deposit;
+        cout << "The deposit value is: " << deposit;
         break;
 
         case 2:
-        cout << "The Withdrawal value is: " << balance_a_deposit - Withdraw;
+        cout << "The Withdrawal value is: " << Withdraw;
         break;
 
         case 3:
-        cout << "Check original balance: " << CheckBalance;
+        cout << "Check balance before deposit: " << CheckBalance << endl;
+        cout << "Check balance after deposit: " << balance_a_deposit << endl;
+        cout << "Check balance after deposit after cutting withdrawal: " << balance_a_deposit - Withdraw;
         break;
 
         case 4:

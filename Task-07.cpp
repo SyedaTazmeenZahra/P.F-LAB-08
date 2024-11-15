@@ -1,3 +1,4 @@
+// Using switch statement, print seasons through integers (1 to 12) that represents months.
 #include <iostream>
 using namespace std;
 int main() {

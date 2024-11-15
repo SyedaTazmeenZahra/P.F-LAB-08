@@ -1,3 +1,4 @@
+//Using switch statement, write single alphabet character (lower or uppercase) to tell vowel or consonant.
 #include <iostream>
 using namespace std;
 int main() {
@@ -48,7 +49,7 @@ int main() {
         break;
 
         default:
-        cout << "Invalid Input";
+        cout << "Consonant";
         break;
     }
     return 0;

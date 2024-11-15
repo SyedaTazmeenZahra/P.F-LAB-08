@@ -1,3 +1,4 @@
+// Using switch statement, make simple traffic light simulation program that prints actions upon calling a color.
 #include <iostream>
 using namespace std;
 int main() {
